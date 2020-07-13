@@ -1,0 +1,14 @@
+{
+  "name": "parallax_page",
+  "version": "1.0.0",
+  "description": "My 3rd project from Geeksfprgeeks.com(parallax page\"",
+  "main": "parallax.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "verreauxblack",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
