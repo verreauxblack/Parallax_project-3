@@ -3,23 +3,244 @@
 <html lang="en">
     <head>
         
-    <!-- Required meta tags always come first-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Required meta tags always come first-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tailwind.min.css">
 
+        <!--GoogleApi Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <style>
+            
+        </style>
+        <nav class="navbar navbar-dark navbar-bg navbar-expand-sm fixed-top">
+            <div class="container">
+               <a class="navbar-brand" href="#">Ruby Cups</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                            <div class=" dropdown-menu" aria-labelledby="menu">
+                                <a class=" dropdown-item" href="#classic">Classic</a>
+                                <a class=" dropdown-item" href="#modern">Modern</a>
+                                <a class=" dropdown-item" href="#popular">Popular</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>            
+            </div>
+        </nav>
     </head>
     <body>
-         <p>sf</p>
-        <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by tirachard - www.freepik.com</a>
+         <div id="header" class=" container">
+            
+            <div class=" row h-100">
+                <div class="col-12 px-24 mb-0 text-center align-self-center">
+                    <h1 class="text-white border-t-2 mx-64 p-10 border-b-2 border-white font-bold text-6xl">Welcome to Ruby Cups</h1>
+                    <p class=" my-4 text-white font-extrabold">" Devon runs on love and laughter with cups of strong coffee and good food "</p>
+                    <a class="btn btn-light text-yellow-100 my-10 py-2 px-8 text-xl border-4 bg-pink-400 border-gray-200 hover:border-pink-400 " href="#classic" role="button">Let's start</a>
+                    <p class="text-center text-white mt-8 mb-0">Learn More</p>
+                </div>
+                <div class="row ">
+                
+                </div>
+            </div>
+         </div>
+         <div class="pb-6" id="classic"></div>
+         <div class="container my-10 pb-8">
+             <div class="flex justify-content-between">
+                <div class=" font-extrabold text-3xl" id="classic"> Classic Collections</div>
+                <button class="btn btn-light bg-pink-400 text-yellow-100 " type="button" value=" For More +">For More +</button>
+             </div>
+             <div class="row">
+                <div class=" mt-4 col-4 ">
+                    <div class="flex flex-col border-2 border-pink-300 shadow justify-center items-center">
+                        <div class=" mt-4 border-gray-300 border-2">
+                            <img class="h-40 rect" src="/Img/glass.jpg" alt="glass">
+                        </div>
+                        <div class="mt-6 font-bold card-title">
+                            <h3>GLASS MUGS</h3>
+                        </div>
+                        <div>
+                            <p class="mx-2 mb-4 text-center">While this drinkware isn't ideal for warm beverages, it's a great choice for cold brews. These mugs are more commonly known as steins and work well for restaurants, pubs, or bars.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class=" mt-4 col-4 ">
+                    <div class="flex flex-col border-2 border-pink-300 shadow justify-center items-center">
+                        <div class="mt-8 border-gray-300 border-2">
+                            <img class="h-40 rect" src="/Img/ceramic.jpg" alt="ceramic">
+                        </div>
+                        <div class="mt-4 font-bold card-title">
+                            <h3>CERAMIC</h3>
+                        </div>
+                        <div>
+                            <p class="mx-6 mt-2 mb-8 text-center">Most of the mugs in your kitchen cabinet are made from ceramics. These mugs have a smooth, glazed look that's impossible to resist.</p>
+                        </div>
+                    </div>
+                </div>
+   
+   
+                <div class=" mt-4 col-4">
+                    <div class="flex flex-col border-2 border-pink-300 shadow justify-center items-center">
+                        <div class=" mt-4 border-gray-300 border-2">
+                            <img class=" h-40 rect" src="/Img/another glass.jpg" alt="another glass">
+                        </div>
+                        <div class="mt-4 font-bold card-title">
+                            <h3>GLASS </h3>
+                        </div>
+                        <div>
+                            <p class="mx-2 mb-6 text-center">While this drinkware isn't ideal for warm beverages, it's a great choice for cold brews. These mugs are more commonly known as steins and work well for restaurants, pubs, or bars.</p>
+                        </div>
+                    </div>
+                </div>
+                
+             </div>
+            
+             
+         </div>
+         <div id="center" class=" container">
 
-        
-        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <div class=" row h-100">
+                <div class="col-12 px-24 text-center align-self-center">
+                    <p class="quotes my-4 text-white  font-semibold">" If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee. "</p>
+                    
+                </div>
+                <div class="row ">
+                
+                </div>
+            </div>
+         </div>
+         <div class="pb-6" id="modern"></div>
+         <div class="container my-10 pb-8">
+            <div class="flex justify-content-between">
+                <div class=" font-extrabold text-3xl" id="modern"> Modern Collections</div>
+                <button class="btn btn-light btn-center text-yellow-100 " type="button" value=" For More +">For More +</button>
+             </div>
+            <div class="row">
+               <div class=" mt-4 col-4 ">
+                   <div class="flex flex-col border-2 border-center shadow justify-center items-center">
+                       <div class="mt-8 border-gray-300 border-2">
+                           <img class="h-48 w-48 square" src="/Img/plastic.jpg" alt="plastic">
+                       </div>
+                       <div class="mt-4 font-bold card-title">
+                           <h3>Plastic Cup</h3>
+                       </div>
+                       <div>
+                           <p class="mx-6 mb-4 text-center">Obviously you shouldn't pour your coffee into plastic mugs. They are more suitable for juice or soda, making them great for picnics or backyard barbeques.</p>
+                       </div>
+                   </div>
+               </div>
+  
+               <div class=" mt-4 col-4">
+                   <div class="flex flex-col border-2 border-center shadow justify-center items-center">
+                       <div class=" mt-4 border-gray-300 border-2">
+                           <img class=" h-50 square" src="/Img/stone.jpg" alt="stone">
+                       </div>
+                       <div class="mt-4 font-bold card-title">
+                           <h3>Stone Cup</h3>
+                       </div>
+                       <div>
+                           <p class="mx-6 mb-6 text-center">If you're looking for an extra durable mug, you can't go wrong with stone. These mugs have thick walls for holding your favorite beverage.</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="mt-4 col-4">
+                   <div class="flex flex-col border-2 border-center shadow justify-center items-center">
+                       <div class="mt-8 border-gray-300 border-2">
+                           <img class=" h-50 square" src="/Img/polypropene.jpg" alt="polypropene">
+                       </div>
+                       <div class="mt-4 font-bold card-title">
+                           <h3>polypropene Cup</h3>
+                       </div>
+                       <div>
+                           <p class="mx-6 mb-10 text-center">Built with double wall insulation, you can serve warm tea or hot coffee in these stylish mugs.</p>
+                       </div>
+                   </div>
+               </div>
+            </div> 
+        </div>
+         <div id="footer" class=" container">
+
+            <div class=" row h-100">
+                <div class="col-12 px-24 mb-0 text-center align-self-center">
+                    
+                    <p class=" quotes my-4 quotesfontcolor font-extrabold">" He was my cream, and I was his coffee - And when you poured us together, it was something. "</p>
+                    
+                </div>
+                <div class="row ">
+                
+                </div>
+            </div>
+         </div>
+         <div class="pb-6" id="popular"></div>
+         <div class="container my-10 pb-8">
+            <div class="flex justify-content-between">
+                <div class=" font-extrabold text-3xl" id="popular"> Popular Collections</div>
+                <button class="btn btn-light btn-footer text-yellow-100 " type="button" value=" For More +">For More +</button>
+             </div>
+            <div class="row">
+                <div class=" mt-4 col-4">
+                    <div class="flex flex-col border-2 border-footer shadow justify-center items-center">
+                        <div class=" mt-4 border-gray-300 border-2">
+                            <img class="h-48 square" src="/Img/procleain.jpg" alt="procleain">
+                        </div>
+                        <div class="mt-4 font-bold card-title">
+                            <h3>PROCLEAIN</h3>
+                        </div>
+                        <div>
+                            <p class="mx-6 mb-6 text-center">Porcelain mugs are perfect for evening tea or holiday parties with the entire family. They make every event a bit more elegant and tasteful.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 col-4">
+                    <div class="flex flex-col border-2 border-footer shadow justify-center items-center">
+                        <div class="mt-4 border-gray-300 border-2">
+                            <img class=" h-48 square" src="/Img/arcylic.jpg" alt="arcylic">
+                        </div>
+                        <div class="mt-4 font-bold card-title">
+                            <h3>ARCYLIC</h3>
+                        </div>
+                        <div>
+                            <p class="mx-6 mb-6 text-center">Transparent, acrylic mugs are great for juice, water, or soda. They are also cost-effective giveaways for trade shows and conventions.</p>
+                        </div>
+                    </div>
+                </div>
+               <div class="mt-4 col-4">
+                   <div class="flex flex-col border-2 border-footer shadow justify-center items-center">
+                       <div class="mt-4 border-gray-300 border-2">
+                           <img class=" h-48 square" src="/Img/metal.jpg" alt="metal cup">
+                       </div>
+                       <div class="mt-4 font-bold card-title">
+                           <h3>METAL CUP</h3>
+                       </div>
+                       <div>
+                           <p class="mx-6 mb-6 text-center">Metal mugs have a stylish flair that's impossible to resist. Moscow Mules in particular are great company gifts for the entire office!</p>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <footer id="footer0">
+            <div class="p-4 text-gray-300 font-bold text-center">
+                <h3>Created by Raju</h3>
+            </div>
+
+            <div class=" p-4 text-gray-100 text-center ">
+                @Copyrights 2020
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
     </body>
 </html>

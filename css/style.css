@@ -1,0 +1,96 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-bg{
+    background-color: #F687B3;
+    font-weight: 600;
+
+    
+}
+body{
+    margin-top: 20px;
+}
+
+#header{
+    background-image: url("/Img/cup1.jpg");
+    height:700px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#center{
+    background-image: url("/Img/bg/olden.jpg");
+    height:700px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.border-center{
+    border-color: #4F6652;
+}
+
+.btn-center{
+    background-color: #4F6652;
+}
+
+#footer{
+    background-image: url("/Img/bg/black\ coffee.jpg");
+    height:700px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.border-footer{
+    border-color: #FF5E0E;
+}
+
+.btn-footer{
+    background-color: #FF5E0E;
+}
+
+.quotes{
+    font-family: 'Tangerine' , cursive;
+    font-size:100px;
+    opacity: 95%;
+    
+}
+
+.quotesfontcolor{
+    color: #FF5E0E;
+}
+
+#footer0{
+    background-image: url("/Img/vintage-tea-cups-973x649.jpg");
+    height:200px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.rect:hover{
+    width: 300px;
+    height: 200px;
+}
+
+.square:hover{
+    width: 250px;
+    height: 250px;
+}
