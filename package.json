@@ -4,11 +4,22 @@
   "description": "My 3rd project from Geeksfprgeeks.com(parallax page\"",
   "main": "parallax.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
-  "author": "verreauxblack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verreaux/Parallax_project-3.git"
+  },
+  "author": "verreaux",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9"
   }
 }
